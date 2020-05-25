@@ -32,6 +32,9 @@ class Game:
         computes exit point of the laser beam, using the find_exit_point method
         of the LaserBeam object in the grid attribute
         """
+        self.exit_point_computed=self.laser_beam.find_exit_point(self.grid)
+        return self.exit_point_computed
+
 
     def print_grid(self):
         """
