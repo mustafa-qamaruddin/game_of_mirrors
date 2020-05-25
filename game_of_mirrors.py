@@ -45,6 +45,27 @@ class Game:
         5   /
         """
 
+        grid.status = self.grid.status
+        laser_init_position = self.grid.laser_beam.init_direction
+        laser_init_dir = self.grid.laser_beam.init_direction
+        dirs = ''
+        if laser_init_dir[0]==1 and laser_init_dir[0]==0;
+        dir = 'v'
+        elif laser_init_dir[0]==-1 and laser_init_dir[0]==0;
+        dir = '^'
+        elif laser_init_dir[0]==0 and laser_init_dir[0]==1;
+        dir = '>'
+        elif laser_init_dir[0]==0 and laser_init_dir[0]==-1;
+        dir = '<'
+        else:
+            print("error")
+        grid_status[laser_init_position[0]][laser_init_position[1]]=dir
+        
+
+        return 
+        
+        
+
     def ask_guess(self):
         """
         asks the user for an "x,y" string and
