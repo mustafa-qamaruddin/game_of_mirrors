@@ -25,7 +25,14 @@ class Game:
         create the grid attribute using width and height parameters based on difficulty.
         Ex : if the difficulty is set to easy, then self.grid is a 4x4 Grid object with 3 mirrors
         """
-
+       if self.difficulty = "easy":
+           print(mirrors == self.grid(4,4,3))
+       elif self.difficulty = "medium":
+           print(mirrors == self.grid(5,5,4))
+       elif self.difficulty = "hard":
+           print(mirrors == self.grid(6,6,5))
+       else:
+           print("Please input on a scale of easy, medium and hard"
 
     def compute_exit_point(self):
         """
